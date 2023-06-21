@@ -109,10 +109,10 @@ Control.system-ca-bundle
 GitHub.sublime-settings
 
 # Visual Studio Code #
-.vscode/*
+#.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
-!.vscode/launch.json
+#!.vscode/launch.json
 !.vscode/extensions.json
 .history
 
@@ -129,3 +129,5 @@ gunicorn-error-log
 db.sqlite3
 db copy.sqlite3
 static/
+
+notes.txt
