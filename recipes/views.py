@@ -10,4 +10,4 @@ def sobre(request):
     return HttpResponse('sobre')
 
 def contato(request):
-    return HttpResponse('contato')
+    return render(request, 'recipes/contato.html')
